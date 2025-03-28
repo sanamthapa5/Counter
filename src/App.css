@@ -1,0 +1,91 @@
+/* Reset styles to remove margin/padding issues */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f4f6;
+}
+
+/* Fullscreen container with flexbox for centering */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;  /* Full width */
+  height: 100vh; /* Full height */
+}
+
+/* Styling for the counter box */
+.counter-box {
+  background-color: white;
+  padding: 24px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px; /* Fixed width */
+}
+
+/* Title styling */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+/* Count number styling */
+.count {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+/* Button container */
+.buttons {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Increment button */
+.increment {
+  padding: 8px 16px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.increment:hover {
+  background-color: #059669;
+}
+
+
+.increment:focus {
+  outline: none;
+}
+/* Decrement button */
+.decrement {
+  padding: 8px 16px;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.decrement:hover {
+  background-color: #dc2626;
+}
+
+
+.decrement:focus {
+  outline: none;
+}
