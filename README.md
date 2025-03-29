@@ -1,6 +1,6 @@
 # Counter
 
-A simple counter app built with React. This app allows users to increment and decrement a counter value with buttons. 
+A simple counter built with React. This app allows users to increment and decrement a counter value with buttons. 
 ## Installation
 
 Before running the app, make sure you have [Node.js](https://nodejs.org/en) and [npm](https://www.npmjs.com/) installed on your Computer.
